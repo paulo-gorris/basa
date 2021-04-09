@@ -209,7 +209,7 @@ img {
 
 /* Mobile */
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .hero {
     height: 500px;
   }
@@ -235,4 +235,4 @@ img {
   .team img {
     width: 70%;
   }
-} */
+}
