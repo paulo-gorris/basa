@@ -16,6 +16,7 @@
       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Basa | Empreendimentos Imobiliários</title>
@@ -110,29 +111,47 @@
             maiores informações.
           </p>
         </header>
-        <div class="row">
+        <div id="gallery" class="row">
           <div class="column">
-            <img src="./img/nosso-trabalho/imovel-1.jpg" alt="" />
-            <img src="./img/nosso-trabalho/imovel-2.jpg" alt="" />
+            <a href="./img/nosso-trabalho/imovel-1.jpg" data-lightbox="cases">
+              <img src="./img/nosso-trabalho/imovel-1.jpg" alt="" />
+            </a>
+            <a href="./img/nosso-trabalho/imovel-2.jpg" data-lightbox="cases">
+              <img src="./img/nosso-trabalho/imovel-2.jpg" alt="" />
+            </a>
           </div>
           <div class="column">
-            <img src="./img/nosso-trabalho/imovel-3.jpg" alt="" />
-            <img src="./img/nosso-trabalho/imovel-4.jpg" alt="" />
+            <a href="./img/nosso-trabalho/imovel-3.jpg" data-lightbox="cases">
+              <img src="./img/nosso-trabalho/imovel-3.jpg" alt="" />
+            </a>
+            <a href="./img/nosso-trabalho/imovel-4.jpg" data-lightbox="cases">
+              <img src="./img/nosso-trabalho/imovel-4.jpg" alt="" />
+            </a>
           </div>
           <div class="column">
-            <img src="./img/nosso-trabalho/imovel-5.jpg" alt="" />
-            <img src="./img/nosso-trabalho/imovel-6.jpeg" alt="" />
+            <a href="./img/nosso-trabalho/imovel-5.jpg" data-lightbox="cases">
+              <img src="./img/nosso-trabalho/imovel-5.jpg" alt="" />
+            </a>
+            <a href="./img/nosso-trabalho/imovel-6.jpeg" data-lightbox="cases">
+              <img src="./img/nosso-trabalho/imovel-6.jpeg" alt="" />
+            </a>
           </div>
         </div>
         <div class="row">
           <div class="column">
-            <img src="./img/nosso-trabalho/imovel-7.jpeg" alt="" />
+            <a href="./img/nosso-trabalho/imovel-7.jpeg" data-lightbox="cases">
+              <img src="./img/nosso-trabalho/imovel-7.jpeg" alt="" />
+            </a>
           </div>
           <div class="column">
-            <img src="./img/nosso-trabalho/imovel-8.jpeg" alt="" />
+            <a href="./img/nosso-trabalho/imovel-8.jpeg" data-lightbox="cases">
+              <img src="./img/nosso-trabalho/imovel-8.jpeg" alt="" />
+            </a>
           </div>
           <div class="column">
-            <img src="./img/nosso-trabalho/imovel-9.jpeg" alt="" />
+            <a href="./img/nosso-trabalho/imovel-9.jpeg" data-lightbox="cases">
+              <img src="./img/nosso-trabalho/imovel-9.jpeg" alt="" />
+            </a>
           </div>
         </div>
       </section>
@@ -194,6 +213,12 @@
       </div>
       <p>Basa Empreendimentos Imobiliários | 2021</p>
     </footer>
-    <script src="app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
