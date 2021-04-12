@@ -136,10 +136,21 @@ img {
 }
 
 /* Gallery */
-#mobile-gallery {
+.mobile-container {
   display: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
+.mobile-container div {
+  margin: 0 5px;
+}
+
+.mobile-container img {
+  max-width: 90%;
+  border-radius: 5px;
+}
 /* Icons */
 
 .flex-items .icons {
@@ -274,6 +285,20 @@ img {
 
   .hero .content p {
     font-size: 18px;
+  }
+
+  #gallery,
+  #vertical {
+    display: none;
+  }
+
+  .mobile-container {
+    display: flex;
+  }
+
+  #work {
+    margin-bottom: 5px;
+    padding: 10px;
   }
 
   .flex-items {
